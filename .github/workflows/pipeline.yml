@@ -24,6 +24,7 @@ jobs:
         with: 
           local-notebook-path: notebook_1.py
           existing-cluster-id: 0719-081544-1g6epb5w
+          git-commit: ${{ github.sha }}
           
           
     
