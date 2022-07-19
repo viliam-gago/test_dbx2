@@ -3,6 +3,9 @@ name: Pipeline
 on:
   push:
 
+env:
+  DATABRICKS_HOST: https://adb-7984910318720673.13.azuredatabricks.net/
+
 jobs:
   job_1:
     runs-on: ubuntu-latest
